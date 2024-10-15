@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: gray;
+    position: relative;
+    
+}
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.iteam{
+    margin: 5px;
+    padding: 4px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+   
+}
+.menu li a{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: beige;
+}
+.logo{
+    margin-left: 10px;
+}
+.welcome{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+
+    
+}
+.well-img{
+    width:40%;
+    height: 30%;
+    padding-right: 50px;
+    
+    
+
+}
+.pharma{
+    color: red;
+    font-size: 40px;
+    padding: 80px;
+   
+}
+.well-text{
+    width:30%;
+    padding-right: 10px;
+    font-size: 30px;
+   
+}
+.well-text p{
+    margin-top: 5px;
+    padding-top: 10px;
+    color: rgb(57, 0, 246);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+    padding: 15px 25px 15px 25px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: none;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.btn-up{
+    background: red;
+    color: white;
+   
+}
+.btn-up a{
+    text-decoration: none;
+    color: white;
+}
+.btn-in{
+    color: red;
+   background: rgba(245, 245, 245, 0.643);
+}
+.btn-in a{
+    color: red;
+    text-decoration: none;
+}
+.card-sec{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    }
+.card{
+    width: 25%;
+    height: 300px;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    box-shadow: 7px 5px 15px   grey;
+    border-radius: 10px;
+   
+    
+}
+.card img{
+    margin-left: 40%;
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+.card h2{
+    text-align: center;
+    color: darkblue;
+}
+.card p{
+    text-align: center;
+}
+.card button{
+    padding: 7px 15px 7px 15px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 5px 3px 10px grey;
+    margin-left: 30%;
+   
+    font-size: 15px;
+    font-weight: 300px;
+}
+.about-us{
+    width: 70%;
+    height:auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(17, 13, 226);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    
+    
+}
+.about-us h1{
+
+    text-align: center;
+    padding-top: 5px;
+    color: blue;    
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about-us h3{
+    text-align: center;
+    font-family: sans-serif;
+}
+.about-us p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p-style{
+
+  font-size: 25px;
+  color: red;
+}
+.contact-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+}
+.contact-form{
+    height: 420px;
+    width: 300px;
+    padding-left: 70px;
+    padding-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px grey  ;
+
+}
+.contact-form label{
+    color: blue;
+    font-size: 20px;
+}
+
+#btn{
+    border: none;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px gray;
+    font-family: sans-serif;
+}
+footer{
+    width: 100%;
+    height: 120px;
+    background: fixed;
+    background-color: saddlebrown;
+}
+footer h2{
+    text-align: center;
+    color: white;
+    padding-top:40px;
+    font-family: sans-serif;
+}
+#sign-up{
+    border: 0;
+    margin: 0;
+    background-color: silver;
+}
+.signUp{
+    width: 380px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 33%;
+    margin-top: 50px;
+    padding-left: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px gray;
+}
+.signUp h1{
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: blue;
+   
+}
+.signUp label{
+    color: blue;
+    font-size: 20px;
+}
+#signUp-btn{
+     padding: 10px 15px 10px 15px;
+     border: none;
+     border-radius: 5px;
+     box-shadow: 3px 3px 7px gray;
+     background-color: blue;
+     color: white;
+     font-size: 15px;
+     font-family: sans-serif;
+     margin-top: 20px;
+}
+
+#signIn{
+    height: auto;
+    margin-top: 12%;
+}
+#signIn button{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
